@@ -3,6 +3,8 @@
 #include <string.h>
 #include "structs.h"
 
+
+
 void inputCampaignData(campaign *c) {
     printf("Enter campaign name: ");
     scanf("%ms", &c->name); // Dynamically allocate memory for name
